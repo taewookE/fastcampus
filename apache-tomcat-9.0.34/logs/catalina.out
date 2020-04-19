@@ -1,0 +1,114 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Apr-2020 13:52:17.696 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.34
+10-Apr-2020 13:52:17.701 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Apr 3 2020 12:02:52 UTC
+10-Apr-2020 13:52:17.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.34.0
+10-Apr-2020 13:52:17.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Mac OS X
+10-Apr-2020 13:52:17.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.15.4
+10-Apr-2020 13:52:17.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+10-Apr-2020 13:52:17.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             /Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt
+10-Apr-2020 13:52:17.702 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           12.0.2+10
+10-Apr-2020 13:52:17.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Eclipse OpenJ9
+10-Apr-2020 13:52:17.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:52:17.703 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:52:17.742 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xoptionsfile=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/options.default
+10-Apr-2020 13:52:17.742 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+10-Apr-2020 13:52:17.742 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xjcl:jclse29
+10-Apr-2020 13:52:17.743 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcom.ibm.oti.vm.bootstrap.library.path=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib
+10-Apr-2020 13:52:17.743 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dsun.boot.library.path=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib
+10-Apr-2020 13:52:17.743 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.library.path=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib:/usr/lib
+10-Apr-2020 13:52:17.743 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.home=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt
+10-Apr-2020 13:52:17.744 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Duser.dir=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/bin
+10-Apr-2020 13:52:17.744 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Apr-2020 13:52:17.744 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Apr-2020 13:52:17.744 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Apr-2020 13:52:17.745 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/conf/logging.properties
+10-Apr-2020 13:52:17.745 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 13:52:17.745 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 13:52:17.745 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 13:52:17.745 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 13:52:17.745 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+10-Apr-2020 13:52:17.746 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.class.path=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/bin/bootstrap.jar:/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/bin/tomcat-juli.jar
+10-Apr-2020 13:52:17.746 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:52:17.746 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:52:17.746 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/temp
+10-Apr-2020 13:52:17.746 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dsun.java.command=org.apache.catalina.startup.Bootstrap start
+10-Apr-2020 13:52:17.747 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dsun.java.launcher=SUN_STANDARD
+10-Apr-2020 13:52:17.747 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib:/usr/lib]
+10-Apr-2020 13:52:18.028 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Apr-2020 13:52:18.078 정보 [main] org.apache.catalina.startup.Catalina.load [647] 밀리초 내에 서버가 초기화되었습니다.
+10-Apr-2020 13:52:18.110 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Apr-2020 13:52:18.110 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.34]
+10-Apr-2020 13:52:18.117 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/docs]을(를) 배치합니다.
+10-Apr-2020 13:52:18.384 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/docs]에 대한 배치가 [267] 밀리초에 완료되었습니다.
+10-Apr-2020 13:52:18.385 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/manager]을(를) 배치합니다.
+10-Apr-2020 13:52:18.422 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/manager]에 대한 배치가 [37] 밀리초에 완료되었습니다.
+10-Apr-2020 13:52:18.422 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/examples]을(를) 배치합니다.
+10-Apr-2020 13:52:18.671 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/examples]에 대한 배치가 [249] 밀리초에 완료되었습니다.
+10-Apr-2020 13:52:18.672 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/ROOT]을(를) 배치합니다.
+10-Apr-2020 13:52:18.691 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/ROOT]에 대한 배치가 [18] 밀리초에 완료되었습니다.
+10-Apr-2020 13:52:18.691 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/host-manager]을(를) 배치합니다.
+10-Apr-2020 13:52:18.713 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/host-manager]에 대한 배치가 [22] 밀리초에 완료되었습니다.
+10-Apr-2020 13:52:18.715 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+10-Apr-2020 13:52:18.721 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [643] 밀리초 내에 시작되었습니다.
+10-Apr-2020 13:54:56.411 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+10-Apr-2020 13:54:56.411 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Apr-2020 13:54:56.420 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Apr-2020 13:54:56.457 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Apr-2020 13:54:56.459 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Apr-2020 13:55:08.770 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.34
+10-Apr-2020 13:55:08.775 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Apr 3 2020 12:02:52 UTC
+10-Apr-2020 13:55:08.775 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.34.0
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Mac OS X
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.15.4
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             /Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           12.0.2+10
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Eclipse OpenJ9
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:55:08.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:55:08.815 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xoptionsfile=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/options.default
+10-Apr-2020 13:55:08.815 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+10-Apr-2020 13:55:08.815 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xjcl:jclse29
+10-Apr-2020 13:55:08.815 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcom.ibm.oti.vm.bootstrap.library.path=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dsun.boot.library.path=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.library.path=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib:/usr/lib
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.home=/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Duser.dir=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/bin
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Apr-2020 13:55:08.816 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/conf/logging.properties
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+10-Apr-2020 13:55:08.817 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.class.path=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/bin/bootstrap.jar:/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/bin/tomcat-juli.jar
+10-Apr-2020 13:55:08.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:55:08.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34
+10-Apr-2020 13:55:08.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/temp
+10-Apr-2020 13:55:08.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dsun.java.command=org.apache.catalina.startup.Bootstrap start
+10-Apr-2020 13:55:08.818 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dsun.java.launcher=SUN_STANDARD
+10-Apr-2020 13:55:08.818 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib/compressedrefs:/Users/wook/.sdkman/candidates/java/12.0.2.j9-adpt/lib:/usr/lib]
+10-Apr-2020 13:55:09.092 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+10-Apr-2020 13:55:09.140 정보 [main] org.apache.catalina.startup.Catalina.load [597] 밀리초 내에 서버가 초기화되었습니다.
+10-Apr-2020 13:55:09.166 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+10-Apr-2020 13:55:09.167 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.34]
+10-Apr-2020 13:55:09.173 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/docs]을(를) 배치합니다.
+10-Apr-2020 13:55:09.413 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/docs]에 대한 배치가 [240] 밀리초에 완료되었습니다.
+10-Apr-2020 13:55:09.413 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/manager]을(를) 배치합니다.
+10-Apr-2020 13:55:09.449 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/manager]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+10-Apr-2020 13:55:09.449 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/examples]을(를) 배치합니다.
+10-Apr-2020 13:55:09.686 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/examples]에 대한 배치가 [237] 밀리초에 완료되었습니다.
+10-Apr-2020 13:55:09.687 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/ROOT]을(를) 배치합니다.
+10-Apr-2020 13:55:09.708 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/ROOT]에 대한 배치가 [22] 밀리초에 완료되었습니다.
+10-Apr-2020 13:55:09.709 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/host-manager]을(를) 배치합니다.
+10-Apr-2020 13:55:09.732 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/wook/kr/co/fastcampus/apache-tomcat-9.0.34/webapps/host-manager]에 대한 배치가 [23] 밀리초에 완료되었습니다.
+10-Apr-2020 13:55:09.735 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+10-Apr-2020 13:55:09.741 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [600] 밀리초 내에 시작되었습니다.
+10-Apr-2020 15:11:32.908 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+10-Apr-2020 15:11:32.909 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+10-Apr-2020 15:11:32.919 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+10-Apr-2020 15:11:32.951 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+10-Apr-2020 15:11:32.954 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
