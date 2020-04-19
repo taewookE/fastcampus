@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+apache-tomcat-9.0.34/conf/Catalina/
+apache-tomcat-9.0.34/work/Catalina/localhost/docs/
+apache-tomcat-9.0.34/work/Catalina/localhost/examples/
+apache-tomcat-9.0.34/work/Catalina/localhost/host-manager/
+apache-tomcat-9.0.34/work/Catalina/localhost/manager/
+src/main/webapp/jsp/
+src/test/
+target/generated-sources/
